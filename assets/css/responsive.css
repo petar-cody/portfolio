@@ -1,0 +1,88 @@
+@media (min-width: 993px) {
+
+    .hero-title {
+        font-size: 4.5rem;
+    }
+
+    .grid-projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .hero-title {
+        font-size: 3.5rem;
+    }
+
+    .custom-btn {
+        font-size: 1rem;
+    }
+
+    .about-flex {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .about-image {
+        width: 60%;
+    }
+
+    .grid-education {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "school istqb-a"
+            " istqb-f scrum";
+        gap: 2rem;
+    }
+
+    .grid-skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .greeting {
+        font-size: 1rem;
+    }
+
+    .about-image {
+        width: 90%;
+    }
+
+    .custom-card .card-title {
+        font-size: 1.2rem;
+    }
+
+    .grid-education {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "school"
+            "istqb-a"
+            "istqb-f"
+            "scrum";
+    }
+
+    .grid-skills {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-projects {
+        grid-template-columns: 1fr;
+    }
+}

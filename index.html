@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Petar Romić</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg shadow-sm fixed-top">
+
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a id="logo" class="navbar-brand fw-bold" href="#hero">pr.</a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigation-links">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navigation-links">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <header id="hero"
+        class="hero-section d-flex flex-column justify-content-center align-items-center text-center  bg-alt">
+        <div class="container">
+            <p class="greeting">Hi, my name is Petar Romić</p>
+            <h1 class="hero-title fw-bold">QA Automation Engineer.</h1>
+            <p class="hero-subtitle mb-4">I build robust, scalable test frameworks and ensure flawless web experiences.
+            </p>
+            <a href="#portfolio" class="btn btn-lg custom-btn">View My Work</a>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="about" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-flex">
+                    <div class="about-image">
+                        <img src="assets/img/profilna-slika.png" alt="Petar Romić profile image" class="profile-img">
+                    </div>
+                    <div class="about-text">
+                        <p>I am a passionate QA Automation Engineer with a strong foundation in Object-Oriented
+                            Programming
+                            and test architecture. I thrive in dynamic environments where I can leverage my skills to
+                            optimize CI/CD pipelines, squash bugs, and deliver high-quality software.</p>
+                        <p>When I'm not writing Playwright scripts or managing Linux servers, you can probably find me
+                            brewing the perfect French press coffee.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section-padding bg-alt">
+            <div class="container">
+                <h2 class="section-title">Education & Certification</h2>
+                <div class="grid-education">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <h5 class="card-title">BSc Internet Technologies & Web Design</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Visoka ICT škola | 2025 - Present</h6>
+                            <p class="card-text">Focusing on web development, modern cloud architectures, and software
+                                engineering principles.</p>
+                        </div>
+                    </div>
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <h5 class="card-title">ISTQB Certified Tester Advanced Level Test Automation Engineering
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">CTAL-TAE | 2024</h6>
+                            <p class="card-text">The advance level certification targets automation
+                                engineer looking to improve on test automation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <h5 class="card-title">ISTQB Certified Tester Foundation Level (CTFL)</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">CTFL | 2023</h6>
+                            <p class="card-text">The Foundation Level certification gives practical knowledge of the
+                                fundamental concepts of software.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Professional Scrum Master™ I Certification</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">PSM I | 2022</h6>
+                            <p class="card-text">PSM I certification is evidence that you have demonstrated a
+                                fundamental level of Scrum mastery.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="grid-skills">
+                    <div class="skill-box">Playwright</div>
+                    <div class="skill-box">Java & OOP</div>
+                    <div class="skill-box">Docker</div>
+                    <div class="skill-box">Jenkins CI/CD</div>
+                    <div class="skill-box">Linux Administration</div>
+                    <div class="skill-box">Azure Cloud</div>
+                    <div class="skill-box">HTML/CSS/JS</div>
+                    <div class="skill-box">Git & GitHub</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section-padding bg-alt">
+            <div class="container">
+                <h2 class="section-title">Recent Projects</h2>
+                <div class="grid-projects">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <img src="assets/img/automation.png" class="card-img-top img-fluid  project-icon"
+                                alt="Automation Icon">
+                            <h5 class="card-title">E-commerce Automation Portal</h5>
+                            <p class="card-text">Developed a complete end-to-end test suite using Playwright for a
+                                high-traffic business portal, reducing manual testing time by 80%.</p>
+                        </div>
+                    </div>
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <img src="assets/img/cicd.png" class="card-img-top img-fluid project-icon" alt="CI/CD Icon">
+                            <h5 class="card-title">CI/CD Pipeline Integration</h5>
+                            <p class="card-text">Configured Jenkins and Docker to automate smoke testing upon every pull
+                                request, ensuring rapid feedback for the development team.</p>
+                        </div>
+                    </div>
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <img src="assets/img/scripts.png" class="card-img-top img-fluid  project-icon"
+                                alt="Shell Script Icon">
+                            <h5 class="card-title">Custom Shell Script Utilities</h5>
+                            <p class="card-text">Created a suite of Linux shell scripts to automate daily log parsing
+                                and
+                                server health checks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <h2 class="section-title text-center">Get In Touch</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6">
+                        <form class="contact-form custom-card p-4 rounded">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="e.g., John Doe">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email"
+                                    placeholder="e.g., name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn w-100 custom-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="mb-0">© 2026 Petar Romić</p>
+        <span class="ms-2">|<a href="assets/doc/portfolio_ocenjivanje.pdf" download="portfolio_ocenjivanje.pdf">
+                Checklist</a></span>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
