@@ -47,6 +47,12 @@
 
 }
 
+@media screen and (max-width: 992px) and (orientation: landscape) {
+    .hero-section {
+        margin-top: 74px;
+    }
+}
+
 @media screen and (max-width: 576px) {
 
     .hero-title {
