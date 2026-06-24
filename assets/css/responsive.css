@@ -91,4 +91,8 @@
     .grid-projects {
         grid-template-columns: 1fr;
     }
+
+    .booking-card>h3 {
+        font-size: 1.2rem;
+    }
 }
